@@ -1,0 +1,33 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE/project settings
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Ignore SQLite or MySQL dump files
+*.sql
+dump.sql
